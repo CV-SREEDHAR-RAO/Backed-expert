@@ -1,0 +1,30 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Learners Academy</title>
+</head>
+<body>
+
+<h1 align="center" style="color:red">Welcome to Learners Academy</h1>
+
+<P align="right"><a href="logout.jsp"><I>Logout</I></a> </P>
+
+<h3 align="center" style="color:darkgreen">Student Master</h3>
+
+<P align="center"><a href="addstudent.jsp">Add</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="viewstudent">view</a></P>
+
+
+<h3 align="center" style="color:darkgreen">Teacher Master</h3>
+
+<P align="center"><a href="addteacher.jsp">Add</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="viewteacher.jsp">view</a></P>
+
+<h3 align="center" style="color:darkgreen">Class Master</h3>
+
+<P align="center"><a href="assignclass.jsp">Assign</a>&nbsp;&nbsp;&nbsp;&nbsp;<a href="viewclassreport.jsp">view</a></P>
+
+
+</body>
+</html>

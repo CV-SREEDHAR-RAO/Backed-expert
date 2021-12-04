@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome to Learners Academy</title>
+</head>
+<body>
+
+<nav>
+<h1 align="center" style="color:red">Welcome to Learners academy</h1>
+
+
+<h2 align="center" style="color:blue">Administrator login</h2>
+
+<Form method="post" action="Login-submit.jsp">
+<fieldset>
+
+<legend><b>Admin Login</b></legend><br>
+
+Admin Emailid: <input type="text" name="email" id="email">
+
+<br/>
+<br/>
+
+Admin Password: <input type="password" name="password" id="password">
+
+
+<br/>
+<br/>
+
+<input type="submit" value="Login">
+
+<br/>
+<br/>
+
+</fieldset>
+
+
+</Form>
+
+</nav>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+package com.academy;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Assignment")
+public class Assignment {
+	
+	@Id
+	@GeneratedValue
+	@Column(name="cid")
+	private int cid;
+	
+	@Column(name="teacher")
+	private String teacher;
+	
+	@Column(name="cname")
+	private String cname;
+	
+	@Column(name="sub")
+	private String subject;
+	
+	@Column(name="stud")
+	private String stud;
+
+	public int getCid() {
+		return cid;
+	}
+
+	public void setCid(int cid) {
+		this.cid = cid;
+	}
+
+	public String getTeacher() {
+		return teacher;
+	}
+
+	public void setTeacher(String teacher) {
+		this.teacher = teacher;
+	}
+
+	public String getCname() {
+		return cname;
+	}
+
+	public void setCname(String cname) {
+		this.cname = cname;
+	}
+
+	public String getSubject() {
+		return subject;
+	}
+
+	public void setSubject(String subject) {
+		this.subject = subject;
+	}
+
+	public String getStud() {
+		return stud;
+	}
+
+	public void setStud(String stud) {
+		this.stud = stud;
+	}
+	
+
+}

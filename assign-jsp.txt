@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Assign Class/Student to Subject</title>
+</head>
+<body>
+
+<h1 align="center" style="color:red">Teacher/Student Assignment form</h1>
+<form method="post" action="assignclass">
+<fieldset>
+<legend>Assignment form</legend>
+<br>
+Teacher&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Class&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Subject&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Student
+<br/>
+<br/>
+<select name="teacher" id="teacher">
+  <option value="1">Sridhar</option>
+  <option value="2">Ravi</option>
+  <option value="3">Raghav</option>
+  <option value="4">Chandra</option>
+</select>
+&emsp;&emsp;&emsp;&emsp;&emsp;
+<select name="class" id="class">
+  <option value="1">Hibernate</option>
+  <option value="2">Spring</option>
+  <option value="3">Basics</option>
+  <option value="4">Advanced</option>
+</select>
+&emsp;&emsp;&emsp;&nbsp;
+<select name="subject" id="subject">
+  <option value="1">CoreJava</option>
+  <option value="2">J2EE</option>
+  <option value="3">JavaMobile</option>
+  <option value="4">JavaEmbedded</option>
+</select>
+&emsp;&emsp;
+<select name="student" id="student">
+  <option value="1">Ram</option>
+  <option value="2">Shyam</option>
+  <option value="3">Naveen</option>
+  <option value="4">Ramesh</option>
+</select>
+<br/>
+<br/>
+<b><input type="submit" value="Add Teacher"></b>
+
+</fieldset>
+
+</form>
+</body>
+</html>

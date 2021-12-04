@@ -1,0 +1,27 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Application System</title>
+</head>
+<body>
+<h1 align="center" style="color:red">Student Form</h1>
+<form method="post" action="addstudent">
+<fieldset>
+<legend>New Student form</legend>
+<br>
+Student Name: <Input type="text" name="sname" id="sname">
+<br/>
+<br/>
+Subject:&emsp;&emsp;&emsp;<Input type="text" name="sub" id="sub">
+<br/>
+<br/>
+<b><input type="submit" value="addstudent"></b>
+
+</fieldset>
+
+</form>
+</body>
+</html>

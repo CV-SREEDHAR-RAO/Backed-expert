@@ -1,0 +1,48 @@
+package com.academy;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="Student")
+public class Student {
+	
+	@Id
+	@GeneratedValue
+	@Column(name="sid")
+	private int sid;
+	
+	@Column(name="sname")
+	private String sname;
+	
+	@Column(name="sub")
+	private String sub;
+
+	public int getSid() {
+		return sid;
+	}
+
+	public void setSid(int sid) {
+		this.sid = sid;
+	}
+
+	public String getSname() {
+		return sname;
+	}
+
+	public void setSname(String sname) {
+		this.sname = sname;
+	}
+
+	public String getSub() {
+		return sub;
+	}
+
+	public void setSub(String sub) {
+		this.sub = sub;
+	}
+
+}

@@ -1,0 +1,16 @@
+Pasting of class files
+
+C:\Users\admin\eclipse-workspace\Academy\src\main\java\com\acedamy
+
+Hibernatecofigfile
+
+C:\Users\admin\eclipse-workspace\Academy\src\main\java
+
+Jsp files
+
+C:\Users\admin\eclipse-workspace\Academy\src\main\webapp
+
+Webxml
+
+C:\Users\admin\eclipse-workspace\Academy\src\main\webapp\WEB-INF
+
